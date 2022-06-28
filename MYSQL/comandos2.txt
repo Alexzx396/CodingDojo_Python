@@ -1,0 +1,22 @@
+insert into prueba value(1, "coder");
+insert into prueba value(2, "ninja coder");
+insert into prueba value(3, "coder black");
+
+select * from prueba;
+
+SELECT first_name FROM users;
+
+DELETE FROM prueba WHERE id_prueba = 2;
+
+SELECT first_name FROM prueba WHERE id_prueba = 3;
+
+SELECT * FROM prueba ORDER BY;
+
+SELECT first_name FROM users ORDER BY first_name;
+
+update prueba set nombre = "Panqueques" where id_prueba = 3;
+
+
+set sql_safe_updates  = 0;
+
+select * from prueba;

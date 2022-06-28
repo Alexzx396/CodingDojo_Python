@@ -1,0 +1,33 @@
+
+CREATE TABLE dojo1 ( id INT PRIMARY KEY, nombre VARCHAR(255) );
+CREATE TABLE dojo2 ( id INT PRIMARY KEY, nombre VARCHAR(255) );
+CREATE TABLE dojo3 ( id INT PRIMARY KEY, nombre VARCHAR(255) );
+
+DROP TABLE dojo1;
+DROP TABLE dojo2;
+DROP TABLE dojo3;
+
+CREATE TABLE dojo1 ( id INT PRIMARY KEY, nombre VARCHAR(255) );
+CREATE TABLE dojo2 ( id INT PRIMARY KEY, nombre VARCHAR(255) );
+CREATE TABLE dojo3 ( id INT PRIMARY KEY, nombre VARCHAR(255) );
+
+
+INSERT INTO dojo1 VALUES ( 1, 'ninja1' );
+INSERT INTO dojo1 VALUES ( 2, 'ninja2' );
+INSERT INTO dojo1 VALUES ( 3, 'ninja3' );
+
+INSERT INTO dojo2 VALUES ( 1, 'ninja1' );
+INSERT INTO dojo2 VALUES ( 2, 'ninja2' );
+INSERT INTO dojo2 VALUES ( 3, 'ninja3' );
+
+INSERT INTO dojo3 VALUES ( 1, 'ninja1' );
+INSERT INTO dojo3 VALUES ( 2, 'ninja2' );
+INSERT INTO dojo3 VALUES ( 3, 'ninja3' );
+
+set sql_safe_updates  = 0;
+
+select * from dojo1;
+
+select * from dojo3;
+
+SELECT * FROM dojo1 WHERE nombre='ninja3';

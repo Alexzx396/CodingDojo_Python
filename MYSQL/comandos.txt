@@ -1,0 +1,10 @@
+
+insert into prueba value(1, "house");
+
+update prueba set nombre = "coder" where id_prueba = 1;
+
+DELETE FROM prueba WHERE id_prueba = 180;
+
+set sql_safe_updates  = 0;
+
+select * from prueba;
