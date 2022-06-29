@@ -1,0 +1,15 @@
+#container{
+    width: 1350px;
+    margin: 50px auto;
+    background-color: white;
+    text-align: center;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#checkerboard{
+    text-align: center;
+    margin: 30px auto;
+}

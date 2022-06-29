@@ -5,49 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',  filename='css/style.css') }}">
-    <title>Tablero de Ajedres</title>       
-    <!-- <style>
-        .color1{
-            background-color: blue;
-            width: 85px;
-            height: 85px;
-        }
-
-        .color2{
-            background-color: red;
-            width: 85px;
-            height: 85px;
-        }
-
-        #checkerboard{
-                text-align: center;
-                margin: 30px auto;
-        }
-
-        #container{
-                text-align: center;
-        }
-    </style> -->
+    <title>Tabla HTML</title>       
 </head>
 <body>
         <div id="container">
-            <h1> Tablero de Ajedres 8 por 8 </h1>
-            <table id="checkerboard">
-            {% for i in range(8): %}
-                <tr>
-                    {% for j in range(4): %}
-                    <td class="color1"></th>
-                    <td class="color2"></th>
-                    {% endfor %}
-                </tr>
-                <tr>
-                    {% for j in range(4): %}
-                    <td class="color2"></th>
-                    <td class="color1"></th>
-                    {% endfor %}
-                </tr>
-            {% endfor %}
-            </table>
+            <h1>Random Numbers</h1>
+                {% for number in random_numbers %}
+                <p>{{ number }}</p>
+                {% endfor %}
+            <h1>Students</h1>
+                {% for student in estudiantes %}
+                <p>{{ student['name'] }} - {{ student['age'] }}</p>
+                {% endfor %}
         </div>
 </body>
 </html>
