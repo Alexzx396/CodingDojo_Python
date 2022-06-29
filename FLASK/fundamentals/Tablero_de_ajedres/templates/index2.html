@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Tablero de Ajedres</title>       
+    <style>
+        .color1{
+            background-color: blue;
+            width: 85px;
+            height: 85px;
+        }
+
+        .color2{
+            background-color: red;
+            width: 85px;
+            height: 85px;
+        }
+
+        #checkerboard{
+                text-align: center;
+                margin: 30px auto;
+        }
+
+        #container{
+                text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+        <div id="container">
+            <h1> Tablero de Ajedres X por Y </h1>
+            <table id="checkerboard">
+            {% for i in range(x): %}
+                <tr>
+                    {% for j in range(y): %}
+                    <td class="color{{ (i+j)%2+1 }}"></th>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            </table>
+        </div>
+
+</body>
+</html>
