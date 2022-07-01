@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Dojo Fruit Store</title>    
+</head>
+    <body>
+        <div id="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Gracias!</h1>
+                <p class="lead">¡Tu pedido ha sido recibido y está siendo procesado inmediatamente!</p>
+                <hr class="my-4">
+                <p>Agradecemos su compra, mediante la tienda Dojo Fruit .</p>
+            </div>
+            <div id="leftpanel2">
+                <h2>Recibo de {{name}}</h2>
+                <h5>apples: {{apples}}</h5>
+                <h5>blackberry: {{blackberry}}</h5>
+                <h5>raspberry: {{raspberry}}</h5>
+                <h5>strawberry: {{strawberry}}</h5>
+               
+                <h5 id="total">Total: {{apples + blackberry + raspberry + strawberry}}</h5>
+                <h4 class="confirmation">Credenciales de estudiante verificadas!</h4>
+                <h4 class="confirmation">Compra realizada con Cédula de Estudiante {{studentid}}, para {{name}} en </h4>
+                <h4 class="confirmation">{{timestamp}}.</h4>
+            </div>
+            <div id="rightpanel2"></div>
+        </div>
+    </body>
+</html>
