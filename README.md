@@ -1,12 +1,15 @@
-﻿# CodingDojo_Python
-Bootcamp 2022
+##Desafíos - Bootmcam Python, Coding Dojo.
+### - Alex Arce - 
 
--1- Fundamentos De Python
 
--2- Introduccion a POO
+| Desafio       | Titulo                                  |
+| ------------- | --------------------------------------- |
+| `7 Desafios`  | -1- Fundamentos De Python               |
+| `8 Desafios`  | -2- Introduccion a POO                  |
+| `25 Desafios` | -3- MySql                               |
+| `7 Desafios`  | -4- Flask                               |
+| `8 Desafios`  | -5-Flask + MYSQL                        |
 
--3- MySql
 
--4- Flask
-
--5-Flask + MYSQL
+--> Certificacion Python 
+<a href="https://www.coderhouse.cl/certificados/62e7055ed56d700024002e40">https://www.coderhouse.cl/certificados/62e7055ed56d700024002e40</a>
