@@ -1,5 +1,4 @@
 ## Desafíos - Bootmcam Python, Coding Dojo.
-### - Alex Arce - 
 
 
 | Desafio       | Titulo                                  |
