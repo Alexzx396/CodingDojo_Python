@@ -11,4 +11,4 @@
 
 
 --> Certificacion Python 
-<a href="https://www.coderhouse.cl/certificados/62e7055ed56d700024002e40">https://www.coderhouse.cl/certificados/62e7055ed56d700024002e40</a>
+<a href="https://www.linkedin.com/in/alex-arce-suarez-63477bb8/details/education/1635500864902/single-media-viewer/?profileId=ACoAABkH2MgBe9FSkMUJEZMT2PlYL1bb6VmeI8M</a>
